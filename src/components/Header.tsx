@@ -27,10 +27,10 @@ const Header = () => {
         <nav className="hidden lg:flex items-center space-x-8">
           {navigationItems.map((item) => (
             <div key={item.name} className="relative group">
-              <button className="flex items-center gap-1 text-nav-text hover:text-nav-hover transition-colors duration-200 text-sm font-medium">
+              <button className="flex items-center gap-1 text-white hover:text-white transition-colors duration-200 text-sm font-medium">
                 {item.name}
                 {item.hasDropdown && (
-                  <ChevronDown className="w-4 h-4 text-nav-text group-hover:text-nav-hover transition-colors duration-200" />
+                  <ChevronDown className="w-4 h-4 text-white group-hover:text-white transition-colors duration-200" />
                 )}
               </button>
             </div>
@@ -39,7 +39,7 @@ const Header = () => {
 
         {/* Learn More Button */}
         <div className="flex-shrink-0">
-          <Button variant="outline" className="rounded-full border-nav-button-border text-nav-text hover:bg-nav-text hover:text-background transition-all duration-200">
+          <Button variant="outline" className="rounded-full border-white text-white hover:bg-white hover:text-black transition-all duration-200">
             Learn More
           </Button>
         </div>
