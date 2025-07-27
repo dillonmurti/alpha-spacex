@@ -39,7 +39,7 @@ const Header = () => {
 
         {/* Learn More Button */}
         <div className="flex-shrink-0">
-          <Button variant="outline" className="rounded-full border-white text-white hover:bg-white hover:text-black transition-all duration-200">
+          <Button variant="outline" className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200">
             Learn More
           </Button>
         </div>
