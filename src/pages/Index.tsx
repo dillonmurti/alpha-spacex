@@ -8,7 +8,7 @@ const Index = () => {
       {/* Main Content Area */}
       <main className="flex-1">
         {/* Section 1 */}
-        <section className="h-screen relative overflow-hidden">
+        <section className="h-screen relative overflow-hidden bg-gray-900">
           <video 
             src="/5 School Launch.mp4"
             autoPlay
@@ -16,13 +16,10 @@ const Index = () => {
             muted
             playsInline
             preload="auto"
-            className="absolute inset-0 w-full h-full object-cover"
-            onError={(e) => console.error('Video failed to load:', e)}
-            onLoadStart={() => console.log('Video loading started')}
-            onCanPlay={() => console.log('Video can play')}
+            className="absolute inset-0 w-full h-full object-cover z-10"
+            style={{ display: 'block' }}
           >
             <source src="/5 School Launch.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
         </section>
 
