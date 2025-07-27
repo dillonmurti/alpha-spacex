@@ -15,8 +15,15 @@ const Index = () => {
             loop
             muted
             playsInline
+            preload="auto"
             className="absolute inset-0 w-full h-full object-cover"
-          />
+            onError={(e) => console.error('Video failed to load:', e)}
+            onLoadStart={() => console.log('Video loading started')}
+            onCanPlay={() => console.log('Video can play')}
+          >
+            <source src="/5 School Launch.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </section>
 
         {/* Section 2 */}
@@ -27,8 +34,15 @@ const Index = () => {
             loop
             muted
             playsInline
+            preload="auto"
             className="absolute inset-0 w-full h-full object-cover"
-          />
+            onError={(e) => console.error('Video failed to load:', e)}
+            onLoadStart={() => console.log('Video loading started')}
+            onCanPlay={() => console.log('Video can play')}
+          >
+            <source src="/4 Sailing.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </section>
 
         {/* Section 3 */}
@@ -39,8 +53,15 @@ const Index = () => {
             loop
             muted
             playsInline
+            preload="auto"
             className="absolute inset-0 w-full h-full object-cover"
-          />
+            onError={(e) => console.error('Video failed to load:', e)}
+            onLoadStart={() => console.log('Video loading started')}
+            onCanPlay={() => console.log('Video can play')}
+          >
+            <source src="/5 School Launch.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </section>
 
         {/* Section 4 */}
@@ -51,8 +72,15 @@ const Index = () => {
             loop
             muted
             playsInline
+            preload="auto"
             className="absolute inset-0 w-full h-full object-cover"
-          />
+            onError={(e) => console.error('Video failed to load:', e)}
+            onLoadStart={() => console.log('Video loading started')}
+            onCanPlay={() => console.log('Video can play')}
+          >
+            <source src="/4 Sailing.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </section>
 
         {/* Section 5 */}
@@ -63,8 +91,15 @@ const Index = () => {
             loop
             muted
             playsInline
+            preload="auto"
             className="absolute inset-0 w-full h-full object-cover"
-          />
+            onError={(e) => console.error('Video failed to load:', e)}
+            onLoadStart={() => console.log('Video loading started')}
+            onCanPlay={() => console.log('Video can play')}
+          >
+            <source src="/5 School Launch.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </section>
       </main>
     </div>
