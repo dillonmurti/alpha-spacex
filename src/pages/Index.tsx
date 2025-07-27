@@ -6,6 +6,18 @@ const Index = () => {
   const [showLoading, setShowLoading] = useState(true);
   const totalVideos = 5;
 
+  useEffect(() => {
+    if (showLoading) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [showLoading]);
+
   const handleVideoLoad = () => {
     setVideosLoaded(prev => {
       const newCount = prev + 1;
