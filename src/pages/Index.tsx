@@ -5,100 +5,25 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Main Content Area */}
-      <main className="flex-1">
-        {/* Section 1 */}
-        <section className="h-screen relative overflow-hidden bg-gray-900">
+      {/* Test Section */}
+      <section className="h-screen bg-red-500 flex items-center justify-center">
+        <div className="text-white text-center">
+          <h1 className="text-4xl mb-4">Video Test</h1>
           <video 
             src="/5 School Launch.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            className="absolute inset-0 w-full h-full object-cover z-10"
-            style={{ display: 'block' }}
+            controls
+            width="400"
+            height="300"
+            className="bg-blue-500"
+            onLoadedData={() => console.log('Video loaded successfully')}
+            onError={(e) => console.error('Video error:', (e.target as HTMLVideoElement).error)}
           >
             <source src="/5 School Launch.mp4" type="video/mp4" />
+            Video not supported
           </video>
-        </section>
-
-        {/* Section 2 */}
-        <section className="h-screen relative overflow-hidden">
-          <video 
-            src="/4 Sailing.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            className="absolute inset-0 w-full h-full object-cover"
-            onError={(e) => console.error('Video failed to load:', e)}
-            onLoadStart={() => console.log('Video loading started')}
-            onCanPlay={() => console.log('Video can play')}
-          >
-            <source src="/4 Sailing.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </section>
-
-        {/* Section 3 */}
-        <section className="h-screen relative overflow-hidden">
-          <video 
-            src="/5 School Launch.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            className="absolute inset-0 w-full h-full object-cover"
-            onError={(e) => console.error('Video failed to load:', e)}
-            onLoadStart={() => console.log('Video loading started')}
-            onCanPlay={() => console.log('Video can play')}
-          >
-            <source src="/5 School Launch.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </section>
-
-        {/* Section 4 */}
-        <section className="h-screen relative overflow-hidden">
-          <video 
-            src="/4 Sailing.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            className="absolute inset-0 w-full h-full object-cover"
-            onError={(e) => console.error('Video failed to load:', e)}
-            onLoadStart={() => console.log('Video loading started')}
-            onCanPlay={() => console.log('Video can play')}
-          >
-            <source src="/4 Sailing.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </section>
-
-        {/* Section 5 */}
-        <section className="h-screen relative overflow-hidden">
-          <video 
-            src="/5 School Launch.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            className="absolute inset-0 w-full h-full object-cover"
-            onError={(e) => console.error('Video failed to load:', e)}
-            onLoadStart={() => console.log('Video loading started')}
-            onCanPlay={() => console.log('Video can play')}
-          >
-            <source src="/5 School Launch.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </section>
-      </main>
+          <p className="mt-4">If you see video controls above, the file works.</p>
+        </div>
+      </section>
     </div>
   );
 };
