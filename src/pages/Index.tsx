@@ -8,15 +8,14 @@ const Index = () => {
       {/* Main Content Area */}
       <main className="flex-1">
         {/* Section 1 */}
-        <section className="h-screen relative overflow-hidden bg-red-500">
+        <section className="h-screen relative overflow-hidden">
           <img 
-            src="/5 School Launch.gif"
+            src="./5 School Launch.gif"
             alt="School Launch"
             className="absolute inset-0 w-full h-full object-cover"
             onLoad={() => console.log('GIF loaded successfully')}
-            onError={(e) => console.error('GIF failed to load:', e)}
+            onError={(e) => console.error('GIF failed to load')}
           />
-          <div className="absolute top-4 left-4 text-white z-10">Section 1 - School Launch</div>
         </section>
 
         {/* Section 2 */}
