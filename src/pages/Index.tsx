@@ -9,45 +9,60 @@ const Index = () => {
       <main className="flex-1">
         {/* Section 1 */}
         <section className="h-screen relative overflow-hidden">
-          <img 
-            src="/5 School Launch.gif"
-            alt="School Launch"
+          <video 
+            src="/5 School Launch.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="absolute inset-0 w-full h-full object-cover"
           />
         </section>
 
         {/* Section 2 */}
         <section className="h-screen relative overflow-hidden">
-          <img 
-            src="/4 Sailing.gif"
-            alt="Sailing"
+          <video 
+            src="/4 Sailing.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="absolute inset-0 w-full h-full object-cover"
           />
         </section>
 
         {/* Section 3 */}
         <section className="h-screen relative overflow-hidden">
-          <img 
-            src="/5 School Launch.gif"
-            alt="School Launch"
+          <video 
+            src="/5 School Launch.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="absolute inset-0 w-full h-full object-cover"
           />
         </section>
 
         {/* Section 4 */}
         <section className="h-screen relative overflow-hidden">
-          <img 
-            src="/4 Sailing.gif"
-            alt="Sailing"
+          <video 
+            src="/4 Sailing.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="absolute inset-0 w-full h-full object-cover"
           />
         </section>
 
         {/* Section 5 */}
         <section className="h-screen relative overflow-hidden">
-          <img 
-            src="/5 School Launch.gif"
-            alt="School Launch"
+          <video 
+            src="/5 School Launch.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
             className="absolute inset-0 w-full h-full object-cover"
           />
         </section>
