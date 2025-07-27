@@ -24,7 +24,7 @@ const Header = () => {
         </div>
 
         {/* Navigation */}
-        <nav className="hidden lg:flex items-center space-x-8">
+        <nav className="flex items-center space-x-8">
           {navigationItems.map((item) => (
             <div key={item.name} className="relative group">
               <button className="flex items-center gap-1 text-white hover:text-white transition-colors duration-200 text-sm font-medium">
