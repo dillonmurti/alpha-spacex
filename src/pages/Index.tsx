@@ -7,16 +7,70 @@ const Index = () => {
       
       {/* Main Content Area */}
       <main className="flex-1">
-        <div className="max-w-7xl mx-auto px-6 py-16">
-          <div className="text-center">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 text-foreground">
-              Welcome to Alpha
-            </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Discover our innovative programs and take the next step in your journey.
-            </p>
-          </div>
-        </div>
+        {/* Section 1 */}
+        <section className="h-screen relative overflow-hidden">
+          <video 
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/5 School Launch.gif" type="video/mp4" />
+          </video>
+        </section>
+
+        {/* Section 2 */}
+        <section className="h-screen relative overflow-hidden">
+          <video 
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/4 Sailing.gif" type="video/mp4" />
+          </video>
+        </section>
+
+        {/* Section 3 */}
+        <section className="h-screen relative overflow-hidden">
+          <video 
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/5 School Launch.gif" type="video/mp4" />
+          </video>
+        </section>
+
+        {/* Section 4 */}
+        <section className="h-screen relative overflow-hidden">
+          <video 
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/4 Sailing.gif" type="video/mp4" />
+          </video>
+        </section>
+
+        {/* Section 5 */}
+        <section className="h-screen relative overflow-hidden">
+          <video 
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/5 School Launch.gif" type="video/mp4" />
+          </video>
+        </section>
       </main>
     </div>
   );
