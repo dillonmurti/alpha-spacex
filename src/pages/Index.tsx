@@ -27,13 +27,10 @@ const Index = () => {
 
         {/* Section 3 */}
         <section className="h-screen relative overflow-hidden">
-          <video 
-            src="/5 School Launch.mp4"
+          <img 
+            src="/lovable-uploads/a3b9db08-a472-49c0-a3e2-be8e03ad7593.png"
+            alt="Student Learning"
             className="absolute inset-0 w-full h-full object-cover"
-            autoPlay
-            loop
-            muted
-            playsInline
           />
         </section>
 
