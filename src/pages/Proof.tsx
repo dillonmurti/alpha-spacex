@@ -67,21 +67,21 @@ const Proof = () => {
       </section>
 
       {/* Third Section - The Results Speak for Themselves */}
-      <section className="min-h-screen flex items-center px-6 bg-background">
+      <section className="min-h-screen flex items-center px-6" style={{ backgroundColor: '#c2ecfd' }}>
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0000ef' }}>
               The Results Speak for Themselves
             </h2>
-            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#ffffff' }}>
+            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#0000ef' }}>
               Alpha students learn an average of 2.2x faster than their peers, as shown by industry-standard MAP testing (view report). SAT scores for the Class of 2025 hit a median of 1530, while even our freshman class (Class of 2028) posted a median score of 1410, well above national benchmarks. On AP exams, over 80% of students scored a 4 or 5.
             </p>
           </div>
 
           {/* Right Column - PDF Embed */}
           <div className="flex flex-col items-center">
-            <h3 className="text-2xl font-semibold text-foreground mb-4 text-center">
+            <h3 className="text-2xl font-semibold mb-4 text-center" style={{ color: '#0000ef' }}>
               Read the 2HourLearning White Paper
             </h3>
             <div className="aspect-[4/3] bg-white rounded-lg shadow-lg mb-6 max-h-96 w-full max-w-md">
@@ -99,8 +99,21 @@ const Proof = () => {
               >
                 <Button 
                   variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
-                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                  className="rounded-full bg-transparent transition-all duration-200 flex items-center gap-2"
+                  style={{ 
+                    borderColor: '#0000ef',
+                    color: '#0000ef'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = '#0000ef';
+                    e.currentTarget.style.color = '#c2ecfd';
+                    e.currentTarget.style.borderColor = '#c2ecfd';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = 'transparent';
+                    e.currentTarget.style.color = '#0000ef';
+                    e.currentTarget.style.borderColor = '#0000ef';
+                  }}
                 >
                   Download the White Paper
                   <ArrowRight className="w-4 h-4" />
