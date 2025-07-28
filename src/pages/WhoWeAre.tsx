@@ -62,8 +62,8 @@ const WhoWeAre = () => {
       </section>
 
       {/* Section 3: Kids Will Learn 2X in 2 Hours */}
-      <section className="relative min-h-screen bg-black flex items-center justify-end">
-        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+      <section className="relative min-h-screen bg-black flex items-center justify-end bg-cover bg-center" style={{ backgroundImage: 'url(/lovable-uploads/67bf6ef0-cc3b-4d86-9cdc-3877f4d475a7.png)' }}>
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl ml-auto text-right">
             <h2 
