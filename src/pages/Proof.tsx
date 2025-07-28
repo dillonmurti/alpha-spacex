@@ -64,12 +64,18 @@ const Proof = () => {
               Read the 2HourLearning White Paper
             </h3>
             <div className="aspect-[4/3] bg-white rounded-lg shadow-lg mb-6 max-h-96 w-full max-w-md">
-              <iframe
+              <object
+                data="/2%20Hour%20Learning%20White%20Paper%202024.pdf"
+                type="application/pdf"
                 className="w-full h-full rounded-lg"
-                src="/2%20Hour%20Learning%20White%20Paper%202024.pdf"
-                title="2HourLearning White Paper"
-                frameBorder="0"
-              />
+              >
+                <p className="p-4 text-center">
+                  Your browser doesn't support PDF viewing. 
+                  <a href="/2%20Hour%20Learning%20White%20Paper%202024.pdf" className="text-blue-500 underline ml-1">
+                    Click here to download the PDF
+                  </a>
+                </p>
+              </object>
             </div>
             <div className="text-center">
               <a 
