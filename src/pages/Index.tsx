@@ -154,6 +154,42 @@ const Index = () => {
             muted
             playsInline
           />
+          
+          {/* Content Overlay */}
+          <div className="absolute inset-0 flex items-center justify-end">
+            <div className="max-w-7xl mx-auto px-6 w-full">
+              <div className="max-w-2xl ml-auto text-right">
+                <h1 
+                  className="text-6xl font-bold mb-8" 
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Limitless Learning in the Classroom and Beyond
+                </h1>
+                
+                <p 
+                  className="text-xl mb-8 leading-relaxed" 
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  With core academics completed in the morning, afternoons focus on real-world skills and each student's passion. Alpha's proven approach unlocks students' limitless potential.
+                </p>
+                
+                <Button 
+                  variant="outline" 
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
+                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                >
+                  See Students in Action
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Section 5 */}
