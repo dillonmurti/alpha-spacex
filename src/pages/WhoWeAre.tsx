@@ -164,8 +164,8 @@ const WhoWeAre = () => {
 
               {/* Slide 2: Submit an Application Form */}
               <CarouselItem>
-                <div className="relative min-h-screen bg-black flex items-center justify-end">
-                  <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+                <div className="relative min-h-screen bg-black flex items-center justify-end bg-cover bg-center" style={{ backgroundImage: 'url(/lovable-uploads/458e05f8-987b-41d3-8edf-5576e23d9f6c.png)' }}>
+                  <div className="absolute inset-0 bg-black bg-opacity-40"></div>
                   <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
                     <div className="max-w-2xl ml-auto text-right">
                       <h2 
