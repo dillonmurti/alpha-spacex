@@ -64,18 +64,11 @@ const Proof = () => {
               Read the 2HourLearning White Paper
             </h3>
             <div className="aspect-[4/3] bg-white rounded-lg shadow-lg mb-6 max-h-96 w-full max-w-md">
-              <object
-                data="/2%20Hour%20Learning%20White%20Paper%202024.pdf"
+              <embed
+                src="/2 Hour Learning White Paper 2024.pdf"
                 type="application/pdf"
                 className="w-full h-full rounded-lg"
-              >
-                <p className="p-4 text-center">
-                  Your browser doesn't support PDF viewing. 
-                  <a href="/2%20Hour%20Learning%20White%20Paper%202024.pdf" className="text-blue-500 underline ml-1">
-                    Click here to download the PDF
-                  </a>
-                </p>
-              </object>
+              />
             </div>
             <div className="text-center">
               <a 
