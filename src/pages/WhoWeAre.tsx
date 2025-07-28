@@ -287,7 +287,7 @@ const WhoWeAre = () => {
                 Alpha School Brownsville
               </h3>
               <p 
-                className="text-base mb-4 leading-relaxed whitespace-nowrap px-1"
+                className="text-base mb-4 leading-relaxed"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
