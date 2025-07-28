@@ -64,10 +64,10 @@ const Proof = () => {
               Read the 2HourLearning White Paper
             </h3>
             <div className="aspect-[4/3] bg-white rounded-lg shadow-lg mb-6 max-h-96 w-full max-w-md">
-              <embed
-                src="/2 Hour Learning White Paper 2024.pdf"
-                type="application/pdf"
-                className="w-full h-full rounded-lg"
+              <img
+                src="/lovable-uploads/62f90d79-8180-454f-993c-4e1a44dec7b5.png"
+                alt="2 Hour Learning White Paper"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
             <div className="text-center">
