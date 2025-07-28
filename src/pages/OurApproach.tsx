@@ -13,8 +13,9 @@ const OurApproach = () => {
       <Header />
       
       {/* First Section - Children Are Limitless */}
-      <section className="min-h-screen flex items-center justify-center px-6" style={{ backgroundColor: '#c2ecfd' }}>
-        <div className="text-center max-w-4xl">
+      <section className="relative min-h-screen flex items-center justify-center px-6 bg-cover bg-center" style={{ backgroundImage: 'url(/lovable-uploads/1a8085b6-22e4-4864-9f07-290499c1fc3d.png)' }}>
+        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+        <div className="relative z-10 text-center max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
             Children Are Limitless
           </h1>
