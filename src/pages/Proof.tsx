@@ -27,7 +27,7 @@ const Proof = () => {
             Driven by Students, Backed by Data
           </h1>
           <p className="text-xl md:text-2xl leading-relaxed" style={{ color: '#ffffff' }}>
-            At Alpha, success isn't just measured by test scores, but it is reflected in how our students feel and grow every day
+            At Alpha, success isn't just measured by test scores, it is reflected in how our students feel and grow every day
           </p>
         </div>
       </section>
