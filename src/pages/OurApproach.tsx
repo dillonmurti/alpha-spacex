@@ -113,7 +113,7 @@ const OurApproach = () => {
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
               <a href="https://alpha.school/guides/" className="flex items-center gap-2 justify-center">
-                See Our Guides
+                Meet Our Guides
                 <ArrowRight className="w-4 h-4" />
               </a>
             </Button>
