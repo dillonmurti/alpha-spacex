@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const OurApproach = () => {
   return (
@@ -113,6 +114,7 @@ const OurApproach = () => {
             >
               <a href="#" className="flex items-center gap-2 justify-center">
                 See Our Guides
+                <ArrowRight className="w-4 h-4" />
               </a>
             </Button>
           </div>
