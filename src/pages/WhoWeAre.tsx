@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ArrowRight } from "lucide-react";
 
 const WhoWeAre = () => {
@@ -204,6 +205,128 @@ const WhoWeAre = () => {
             <CarouselPrevious className="left-4 bg-[#0000ef] text-[#c2ecfd] border-[#0000ef] hover:bg-[#0000ef]/80 hover:text-[#c2ecfd]" />
             <CarouselNext className="right-4 bg-[#0000ef] text-[#c2ecfd] border-[#0000ef] hover:bg-[#0000ef]/80 hover:text-[#c2ecfd]" />
           </Carousel>
+        </div>
+      </section>
+
+      {/* Section 6: Contact Admissions Team */}
+      <section className="relative min-h-screen bg-black flex flex-col items-center justify-center py-16">
+        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+        <div className="relative z-10 text-center text-white px-6 max-w-7xl mx-auto w-full">
+          <h1 
+            className="text-6xl font-bold mb-16"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
+            Have Questions? Contact our Admissions Team
+          </h1>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            {/* Alpha School Austin */}
+            <div className="flex flex-col items-center text-center">
+              <h3 
+                className="text-3xl font-bold mb-4"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Alpha School Austin
+              </h3>
+              <p 
+                className="text-lg mb-6 leading-relaxed"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Joanna Lovejoy | admissions@alpha.school
+              </p>
+              <Avatar className="w-32 h-32">
+                <AvatarImage src="/lovable-uploads/1c50b4f2-73fa-49ad-83f7-2ffc4fa861db.png" alt="Joanna Lovejoy" />
+                <AvatarFallback>JL</AvatarFallback>
+              </Avatar>
+            </div>
+
+            {/* Alpha School Miami */}
+            <div className="flex flex-col items-center text-center">
+              <h3 
+                className="text-3xl font-bold mb-4"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Alpha School Miami
+              </h3>
+              <p 
+                className="text-lg mb-6 leading-relaxed"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Debby Lichtner | admissions.miami@alpha.school
+              </p>
+              <Avatar className="w-32 h-32">
+                <AvatarImage src="/lovable-uploads/33c6a67e-59a0-4b24-b828-812135b12661.png" alt="Debby Lichtner" />
+                <AvatarFallback>DL</AvatarFallback>
+              </Avatar>
+            </div>
+
+            {/* Alpha School Brownsville */}
+            <div className="flex flex-col items-center text-center">
+              <h3 
+                className="text-3xl font-bold mb-4"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Alpha School Brownsville
+              </h3>
+              <p 
+                className="text-lg mb-6 leading-relaxed"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Kathrine Ledesma | admissions.brownsville@alpha.school
+              </p>
+              <Avatar className="w-32 h-32">
+                <AvatarImage src="/lovable-uploads/37666bfc-8887-4e05-b9c5-99a30f5daa7e.png" alt="Kathrine Ledesma" />
+                <AvatarFallback>KL</AvatarFallback>
+              </Avatar>
+            </div>
+
+            {/* Alpha Expansion Schools */}
+            <div className="flex flex-col items-center text-center">
+              <h3 
+                className="text-3xl font-bold mb-4"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Alpha Expansion Schools
+              </h3>
+              <p 
+                className="text-lg mb-6 leading-relaxed"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Rachel Goodlad | rachel.goodlad@alpha.school
+              </p>
+              <Avatar className="w-32 h-32">
+                <AvatarImage src="/lovable-uploads/a3b9db08-a472-49c0-a3e2-be8e03ad7593.png" alt="Rachel Goodlad" />
+                <AvatarFallback>RG</AvatarFallback>
+              </Avatar>
+            </div>
+          </div>
         </div>
       </section>
     </div>
