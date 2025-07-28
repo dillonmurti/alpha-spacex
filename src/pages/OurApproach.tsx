@@ -11,7 +11,7 @@ const OurApproach = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
             Children Are Limitless
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+          <p className="text-xl md:text-2xl leading-relaxed" style={{ color: '#ffffff' }}>
             Let us show you how Alpha School can take your child farther than they ever dreamed
           </p>
         </div>
