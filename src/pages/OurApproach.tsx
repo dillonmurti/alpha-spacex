@@ -112,7 +112,7 @@ const OurApproach = () => {
               className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[220px]"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
-              <a href="#" className="flex items-center gap-2 justify-center">
+              <a href="https://alpha.school/guides/" className="flex items-center gap-2 justify-center">
                 See Our Guides
                 <ArrowRight className="w-4 h-4" />
               </a>
