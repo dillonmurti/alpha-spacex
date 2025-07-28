@@ -211,6 +211,42 @@ const Index = () => {
             muted
             playsInline
           />
+          
+          {/* Content Overlay */}
+          <div className="absolute inset-0 flex items-center justify-start">
+            <div className="max-w-7xl mx-auto px-6 w-full">
+              <div className="max-w-2xl text-left">
+                <h1 
+                  className="text-6xl font-bold mb-8" 
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  High Standards, Higher Support
+                </h1>
+                
+                <p 
+                  className="text-xl mb-8 leading-relaxed" 
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Alpha is committed to providing every kid with the highest level of support and motivation, proving that kids are limitless and nothing is impossible.
+                </p>
+                
+                <Button 
+                  variant="outline" 
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                >
+                  Get Started With Us
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
