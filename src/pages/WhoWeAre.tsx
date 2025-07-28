@@ -195,8 +195,8 @@ const WhoWeAre = () => {
 
               {/* Slide 3: Attend a Shadow Day */}
               <CarouselItem>
-                <div className="relative min-h-screen bg-black flex items-center justify-start">
-                  <div className="absolute inset-0 bg-[#0000ef] bg-opacity-80"></div>
+                <div className="relative min-h-screen bg-black flex items-center justify-start bg-cover bg-center" style={{ backgroundImage: 'url(/lovable-uploads/d27860ee-1608-436e-9e30-6f08fd771fe4.png)' }}>
+                  <div className="absolute inset-0 bg-black bg-opacity-40"></div>
                   <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
                     <div className="max-w-2xl text-left">
                       <h2 
