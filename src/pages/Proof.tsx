@@ -125,7 +125,15 @@ const Proof = () => {
       </section>
 
       {/* Fourth Section - Set Up for Future Success */}
-      <section className="min-h-screen flex items-center justify-end px-6" style={{ backgroundColor: '#0000ef' }}>
+      <section 
+        className="min-h-screen flex items-center justify-end px-6"
+        style={{ 
+          backgroundImage: 'url(/lovable-uploads/68add0c2-f0af-40a9-b7c3-3faafb67878d.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl ml-auto text-right">
             <h1 
