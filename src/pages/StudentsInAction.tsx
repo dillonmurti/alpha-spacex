@@ -115,7 +115,7 @@ const StudentsInAction = () => {
           style={{ 
             backgroundImage: 'url(/lovable-uploads/b650f0f8-ee7e-437b-9854-0cb188303070.png)',
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat'
           }}
         >
@@ -154,9 +154,16 @@ const StudentsInAction = () => {
           </div>
         </section>
 
-        {/* Section 4 - Hear it From the Students */}
-        <section className="relative min-h-screen bg-black flex items-center justify-start">
-          <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+        {/* Section 4 - Hear It From the Students */}
+        <section 
+          className="relative min-h-screen flex items-center justify-start"
+          style={{ 
+            backgroundImage: 'url(/lovable-uploads/3910bc10-8c2e-4985-847a-639ad0b2c05f.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl text-left">
               <h2 
@@ -166,7 +173,7 @@ const StudentsInAction = () => {
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
                 }}
               >
-                Hear it From the Students
+                Hear It From the Students
               </h2>
               <Button 
                 asChild 
