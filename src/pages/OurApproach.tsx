@@ -6,7 +6,7 @@ const OurApproach = () => {
       <Header />
       
       {/* First Section - Children Are Limitless */}
-      <section className="min-h-screen flex items-center justify-center px-6">
+      <section className="min-h-screen flex items-center justify-center px-6" style={{ backgroundColor: '#c2ecfd80' }}>
         <div className="text-center max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
             Children Are Limitless
@@ -18,7 +18,7 @@ const OurApproach = () => {
       </section>
 
       {/* Second Section - 2 Hour Learning */}
-      <section className="min-h-screen flex items-center px-6">
+      <section className="min-h-screen flex items-center px-6" style={{ backgroundColor: '#0000ef80' }}>
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
           <div>
