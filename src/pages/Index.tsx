@@ -145,7 +145,7 @@ const Index = () => {
                   We believe every kid can learn 2X more in only 2 hours per day, and the results are clear: Alpha students grow 2.5 times faster than their peers on standardized tests.
                 </p>
                 
-                <Link to="/proof">
+                <Link to="/proof" onClick={() => window.scrollTo(0, 0)}>
                   <Button 
                     variant="outline" 
                     className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
