@@ -23,14 +23,14 @@ const Index = () => {
               <div className="max-w-2xl ml-auto text-right">
                 <h1 
                   className="text-6xl font-bold mb-8" 
-                  style={{ color: '#ffffff' }}
+                  style={{ color: '#c2ecfd' }}
                 >
                   Welcome to the Future of Education
                 </h1>
                 
                 <p 
                   className="text-xl mb-8 leading-relaxed" 
-                  style={{ color: '#ffffff' }}
+                  style={{ color: '#c2ecfd' }}
                 >
                   At Alpha, we believe kids should wake up excited for school, and our revolutionary approach blends cutting edge-AI with proven learning science to make sure they do, all while scoring in the top 1-2% nationally.
                 </p>
