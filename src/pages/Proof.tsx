@@ -1,4 +1,6 @@
 import Header from "@/components/Header";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const Proof = () => {
   return (
@@ -61,13 +63,29 @@ const Proof = () => {
             <h3 className="text-2xl font-semibold text-foreground mb-4 text-center">
               Read the 2HourLearning White Paper
             </h3>
-            <div className="aspect-[3/4] bg-white rounded-lg shadow-lg">
+            <div className="aspect-[4/5] bg-white rounded-lg shadow-lg mb-6">
               <iframe
                 className="w-full h-full rounded-lg"
                 src="/2%20Hour%20Learning%20White%20Paper%202024.pdf"
                 title="2HourLearning White Paper"
                 frameBorder="0"
               />
+            </div>
+            <div className="text-center">
+              <a 
+                href="/2%20Hour%20Learning%20White%20Paper%202024.pdf" 
+                download="2 Hour Learning White Paper 2024.pdf"
+                className="inline-block"
+              >
+                <Button 
+                  variant="outline" 
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                >
+                  Download the White Paper
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
