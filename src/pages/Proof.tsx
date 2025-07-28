@@ -59,11 +59,11 @@ const Proof = () => {
           </div>
 
           {/* Right Column - PDF Embed */}
-          <div>
+          <div className="flex flex-col items-center">
             <h3 className="text-2xl font-semibold text-foreground mb-4 text-center">
               Read the 2HourLearning White Paper
             </h3>
-            <div className="aspect-[4/3] bg-white rounded-lg shadow-lg mb-6 max-h-96">
+            <div className="aspect-[4/3] bg-white rounded-lg shadow-lg mb-6 max-h-96 w-full max-w-md">
               <iframe
                 className="w-full h-full rounded-lg"
                 src="/2%20Hour%20Learning%20White%20Paper%202024.pdf"
