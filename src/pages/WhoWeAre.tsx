@@ -133,7 +133,7 @@ const WhoWeAre = () => {
               {/* Slide 1: Attend a Showcase or Schedule a Tour */}
               <CarouselItem>
                 <div className="relative min-h-screen bg-black flex items-center justify-start">
-                  <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+                  <div className="absolute inset-0 bg-[#0000ef] bg-opacity-80"></div>
                   <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
                     <div className="max-w-2xl text-left">
                       <h2 
@@ -173,7 +173,7 @@ const WhoWeAre = () => {
               {/* Slide 3: Attend a Shadow Day */}
               <CarouselItem>
                 <div className="relative min-h-screen bg-black flex items-center justify-start">
-                  <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+                  <div className="absolute inset-0 bg-[#0000ef] bg-opacity-80"></div>
                   <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
                     <div className="max-w-2xl text-left">
                       <h2 
