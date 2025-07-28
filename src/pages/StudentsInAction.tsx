@@ -74,6 +74,44 @@ const StudentsInAction = () => {
             </div>
           </div>
         </section>
+
+        {/* Section 3 - Create Your Masterpiece */}
+        <section className="relative min-h-screen bg-black flex items-center justify-end">
+          <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+          <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+            <div className="max-w-2xl ml-auto text-right">
+              <h2 
+                className="text-6xl font-bold mb-8"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Create Your Masterpiece
+              </h2>
+              <p 
+                className="text-xl mb-8 leading-relaxed"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Our Alpha High students get to spend four years working on a Masterpiece Project. Our students have worked on everything from flattening the cancer curve and redefining teen dating to creating the first teen-led Broadway musical and creating successful businesses.
+              </p>
+              <Button 
+                asChild 
+                variant="outline" 
+                className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[350px] ml-auto"
+                style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+              >
+                <a href="https://alphax-pi.vercel.app/" className="flex items-center gap-2 justify-center">
+                  Explore the AlphaX Masterpiece Projects
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+              </Button>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
