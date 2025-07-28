@@ -50,7 +50,7 @@ const Proof = () => {
             <div className="aspect-[3/4] bg-white rounded-lg shadow-lg">
               <iframe
                 className="w-full h-full rounded-lg"
-                src="/2 Hour Learning White Paper 2024.pdf"
+                src="/2%20Hour%20Learning%20White%20Paper%202024.pdf"
                 title="2HourLearning White Paper"
                 frameBorder="0"
               />
