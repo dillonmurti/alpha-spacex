@@ -103,8 +103,10 @@ const GetStarted = () => {
       </section>
 
       {/* Section 4: Work for Alpha School */}
-      <section className="relative min-h-screen bg-black flex items-center justify-start">
-        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+      <section 
+        className="relative min-h-screen flex items-center justify-start bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/lovable-uploads/61e1938e-c523-4547-8c45-3452c80d54d7.png)' }}
+      >
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl text-left">
             <h2 
