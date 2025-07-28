@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -44,14 +45,16 @@ const Index = () => {
                   At Alpha, we believe in three guiding principles: kids should love school, learn 2X in 2 hours per day, and develop real life skills.
                 </p>
                 
-                <Button 
-                  variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
-                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
-                >
-                  Who We Are
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
+                <Link to="/who-we-are">
+                  <Button 
+                    variant="outline" 
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                    style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                  >
+                    Who We Are
+                    <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -92,14 +95,16 @@ const Index = () => {
                   Our revolutionary approach blends cutting edge-AI with proven learning science, ensuring all students get the 1:1 attention they need and motivation they crave to progress without learning gaps.
                 </p>
                 
-                <Button 
-                  variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
-                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
-                >
-                  Explore Our Approach
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
+                <Link to="/our-approach">
+                  <Button 
+                    variant="outline" 
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
+                    style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                  >
+                    Explore Our Approach
+                    <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -140,14 +145,16 @@ const Index = () => {
                   We believe every kid can learn 2X more in only 2 hours per day, and the results are clear: Alpha students grow 2.5 times faster than their peers on standardized tests.
                 </p>
                 
-                <Button 
-                  variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
-                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
-                >
-                  See the Proof
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
+                <Link to="/proof">
+                  <Button 
+                    variant="outline" 
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                    style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                  >
+                    See the Proof
+                    <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -188,14 +195,16 @@ const Index = () => {
                   With core academics completed in the morning, afternoons focus on real-world skills and each student's passion. Alpha's proven approach unlocks students' limitless potential.
                 </p>
                 
-                <Button 
-                  variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
-                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
-                >
-                  See Students in Action
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
+                <Link to="/students-in-action">
+                  <Button 
+                    variant="outline" 
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
+                    style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                  >
+                    See Students in Action
+                    <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -236,14 +245,16 @@ const Index = () => {
                   Alpha is committed to providing every kid with the highest level of support and motivation, proving that kids are limitless and nothing is impossible.
                 </p>
                 
-                <Button 
-                  variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
-                  style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
-                >
-                  Get Started With Us
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
+                <Link to="/get-started">
+                  <Button 
+                    variant="outline" 
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                    style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                  >
+                    Get Started With Us
+                    <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
