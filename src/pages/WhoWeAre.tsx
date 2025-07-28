@@ -112,12 +112,12 @@ const WhoWeAre = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 px-2 py-1"
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-1 px-1 py-1 text-sm h-auto w-fit"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
-              <a href="https://alpha.school/the-program/" className="flex items-center gap-1">
+              <a href="https://alpha.school/the-program/" className="flex items-center gap-1 px-1">
                 Explore the Alpha Program
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-3 h-3" />
               </a>
             </Button>
           </div>
