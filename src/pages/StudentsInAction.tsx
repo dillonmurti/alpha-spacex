@@ -51,8 +51,15 @@ const StudentsInAction = () => {
         </section>
 
         {/* Section 2 - Real Skills for the Real World */}
-        <section className="relative min-h-screen bg-black flex items-center justify-start">
-          <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+        <section 
+          className="relative min-h-screen flex items-center justify-start"
+          style={{ 
+            backgroundImage: 'url(/lovable-uploads/0c4833d6-5ef4-4bd0-86ba-d4d72ebdc1c1.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl text-left">
               <h2 
