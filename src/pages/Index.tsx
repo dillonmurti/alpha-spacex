@@ -66,9 +66,9 @@ const Index = () => {
           />
           
           {/* Content Overlay */}
-          <div className="absolute inset-0 flex items-center justify-start">
+          <div className="absolute inset-0 flex items-center justify-end">
             <div className="max-w-7xl mx-auto px-6 w-full">
-              <div className="max-w-2xl text-left">
+              <div className="max-w-2xl ml-auto text-right">
                 <h1 
                   className="text-6xl font-bold mb-8" 
                   style={{ 
@@ -91,7 +91,7 @@ const Index = () => {
                 
                 <Button 
                   variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
                   style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                 >
                   Explore Our Approach
@@ -114,9 +114,9 @@ const Index = () => {
           />
           
           {/* Content Overlay */}
-          <div className="absolute inset-0 flex items-center justify-end">
+          <div className="absolute inset-0 flex items-center justify-start">
             <div className="max-w-7xl mx-auto px-6 w-full">
-              <div className="max-w-2xl ml-auto text-right">
+              <div className="max-w-2xl text-left">
                 <h1 
                   className="text-6xl font-bold mb-8" 
                   style={{ 
@@ -139,7 +139,7 @@ const Index = () => {
                 
                 <Button 
                   variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
                   style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                 >
                   See the Proof
