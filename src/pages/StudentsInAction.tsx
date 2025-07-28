@@ -83,8 +83,22 @@ const StudentsInAction = () => {
               <Button 
                 asChild 
                 variant="outline" 
-                className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[250px]"
-                style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+                className="rounded-full bg-transparent transition-all duration-200 flex items-center gap-2 w-[250px]"
+                style={{ 
+                  borderColor: '#0000ef',
+                  color: '#0000ef',
+                  boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = '#0000ef';
+                  e.currentTarget.style.color = '#c2ecfd';
+                  e.currentTarget.style.borderColor = '#c2ecfd';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                  e.currentTarget.style.color = '#0000ef';
+                  e.currentTarget.style.borderColor = '#0000ef';
+                }}
               >
                 <a href="https://alpha.school/video-library/" className="flex items-center gap-2 justify-center">
                   View our Video Library
