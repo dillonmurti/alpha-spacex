@@ -1,9 +1,157 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const GetStarted = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <Header />
+      
+      {/* Section 1: The Future of Education is Now */}
+      <section className="relative min-h-screen bg-black flex items-center justify-center">
+        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+        <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
+          <h1 
+            className="text-6xl font-bold mb-8"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
+            The Future of Education is Now
+          </h1>
+          <p 
+            className="text-xl leading-relaxed"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
+            We're excited to go on this journey with you
+          </p>
+        </div>
+      </section>
+
+      {/* Section 2: Send Your Kid to Alpha School */}
+      <section className="relative min-h-screen bg-black flex items-center justify-start">
+        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-2xl text-left">
+            <h2 
+              className="text-6xl font-bold mb-8"
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Send Your Kid to Alpha School
+            </h2>
+            <Button 
+              asChild 
+              variant="outline" 
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px]"
+              style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+            >
+              <a href="https://alpha.school/admission-forms/" className="flex items-center gap-2 justify-center">
+                Apply Now
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: Bring Alpha to Your City */}
+      <section className="relative min-h-screen bg-black flex items-center justify-end">
+        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-2xl ml-auto text-right">
+            <h2 
+              className="text-6xl font-bold mb-8"
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Bring Alpha to Your City
+            </h2>
+            <Button 
+              asChild 
+              variant="outline" 
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] ml-auto"
+              style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+            >
+              <a href="https://alpha.school/bring-alpha-to-your-city/" className="flex items-center gap-2 justify-center">
+                Get Started
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 4: Work for Alpha School */}
+      <section className="relative min-h-screen bg-black flex items-center justify-start">
+        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-2xl text-left">
+            <h2 
+              className="text-6xl font-bold mb-8"
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Work for Alpha School
+            </h2>
+            <Button 
+              asChild 
+              variant="outline" 
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[180px]"
+              style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+            >
+              <a href="https://www.crossover.com/jobs" className="flex items-center gap-2 justify-center">
+                Explore Careers
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 5: Connect With Our School */}
+      <section className="relative min-h-screen bg-black flex items-center justify-end">
+        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-2xl ml-auto text-right">
+            <h2 
+              className="text-6xl font-bold mb-8"
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Connect With Our School
+            </h2>
+            <Button 
+              asChild 
+              variant="outline" 
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[160px] ml-auto"
+              style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+            >
+              <a href="https://alpha.school/learn-more/" className="flex items-center gap-2 justify-center">
+                Get In Touch
+                <ArrowRight className="w-4 h-4" />
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
