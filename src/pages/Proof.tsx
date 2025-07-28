@@ -18,14 +18,28 @@ const Proof = () => {
       </section>
 
       {/* Second Section - Our Students Love to Learn */}
-      <section className="min-h-screen flex items-center justify-center px-6" style={{ backgroundColor: '#0000ef' }}>
-        <div className="text-center max-w-4xl">
-          <h2 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
-            Our Students Love to Learn
-          </h2>
-          <p className="text-xl md:text-2xl leading-relaxed" style={{ color: '#ffffff' }}>
-            In our latest surveys, 94% of K-12 students reported they love school, with middle schoolers jumping 23 points to 95%. Over two-thirds of high schoolers wanted to keep the school open during the summer, and 60% of students said they'd rather attend Alpha than go on vacation.
-          </p>
+      <section className="min-h-screen flex items-center justify-end px-6" style={{ backgroundColor: '#0000ef' }}>
+        <div className="max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-2xl ml-auto text-right">
+            <h1 
+              className="text-6xl font-bold mb-8" 
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Our Students Love to Learn
+            </h1>
+            <p 
+              className="text-xl mb-8 leading-relaxed" 
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              In our latest surveys, 94% of K-12 students reported they love school, with middle schoolers jumping 23 points to 95%. Over two-thirds of high schoolers wanted to keep the school open during the summer, and 60% of students said they'd rather attend Alpha than go on vacation.
+            </p>
+          </div>
         </div>
       </section>
 
