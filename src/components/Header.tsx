@@ -1,8 +1,11 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  
   const navigationItems = [
     { name: "The Program", hasDropdown: true, url: "https://alpha.school/the-program/" },
     { name: "Admission", hasDropdown: false, url: "https://alpha.school/admission/" },
@@ -29,8 +32,8 @@ const Header = () => {
           </Link>
         </div>
 
-        {/* Navigation */}
-        <nav className="flex items-center space-x-8">
+        {/* Desktop Navigation */}
+        <nav className="hidden md:flex items-center space-x-8">
           {navigationItems.map((item) => (
             <div key={item.name} className="relative group">
               <a href={item.url} className="flex items-center gap-1 text-white hover:text-white transition-colors duration-200 text-sm font-medium">
@@ -43,13 +46,52 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* Learn More Button */}
-        <div className="flex-shrink-0">
+        {/* Desktop Learn More Button */}
+        <div className="hidden md:flex flex-shrink-0">
           <Button asChild variant="outline" className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200">
             <a href="https://alpha.school/learn-more/">Learn More</a>
           </Button>
         </div>
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <Button
+            variant="outline"
+            size="sm"
+            className="border-white text-white bg-transparent hover:bg-white hover:text-black p-2"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </Button>
+        </div>
       </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden absolute top-full left-0 w-full bg-[#0000ef] bg-opacity-95 border-t border-white/20">
+          <nav className="px-6 py-4 space-y-4">
+            {navigationItems.map((item) => (
+              <div key={item.name}>
+                <a 
+                  href={item.url} 
+                  className="flex items-center gap-1 text-white hover:text-white/80 transition-colors duration-200 text-sm font-medium py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.name}
+                  {item.hasDropdown && (
+                    <ChevronDown className="w-4 h-4 text-white" />
+                  )}
+                </a>
+              </div>
+            ))}
+            <div className="pt-4 border-t border-white/20">
+              <Button asChild variant="outline" className="w-full rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200">
+                <a href="https://alpha.school/learn-more/" onClick={() => setIsMobileMenuOpen(false)}>Learn More</a>
+              </Button>
+            </div>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };
