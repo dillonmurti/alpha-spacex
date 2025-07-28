@@ -1,4 +1,6 @@
 import Header from "@/components/Header";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const Index = () => {
   return (
@@ -14,6 +16,29 @@ const Index = () => {
             alt="Alpha School Building"
             className="absolute inset-0 w-full h-full object-cover"
           />
+          
+          {/* Content Overlay */}
+          <div className="absolute inset-0 flex items-center">
+            <div className="max-w-7xl mx-auto px-6 w-full">
+              <div className="max-w-2xl">
+                <h1 className="text-6xl font-bold mb-8" style={{ color: '#ffffff' }}>
+                  Welcome to the Future of Education
+                </h1>
+                
+                <p className="text-xl mb-8 leading-relaxed" style={{ color: '#ffffff' }}>
+                  At Alpha, we believe kids should wake up excited for school, and our revolutionary approach blends cutting edge-AI with proven learning science to make sure they do, all while scoring in the top 1-2% nationally.
+                </p>
+                
+                <Button 
+                  variant="outline" 
+                  className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200 flex items-center gap-2"
+                >
+                  Who We Are
+                  <ArrowRight className="w-4 h-4" />
+                </Button>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Section 2 */}
