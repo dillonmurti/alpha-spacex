@@ -13,7 +13,10 @@ const Header = () => {
 
   return (
     <header className="w-full absolute top-0 left-0 z-50 px-6 py-4">
-      <div className="flex items-center justify-between max-w-7xl mx-auto">
+      {/* Translucent Blue Overlay */}
+      <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+      
+      <div className="relative flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
