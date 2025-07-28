@@ -8,8 +8,21 @@ const Proof = () => {
       <Header />
       
       {/* First Section - Driven by Students, Backed by Data */}
-      <section className="min-h-screen flex items-center justify-center px-6" style={{ backgroundColor: '#c2ecfd' }}>
-        <div className="text-center max-w-4xl">
+      <section 
+        className="min-h-screen flex items-center justify-center px-6 relative"
+        style={{ 
+          backgroundImage: 'url(/lovable-uploads/46b090c2-217d-4f41-aa36-a0d33d6ef13b.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        {/* Translucent overlay */}
+        <div 
+          className="absolute inset-0" 
+          style={{ backgroundColor: 'rgba(0, 0, 239, 0.6)' }}
+        ></div>
+        <div className="text-center max-w-4xl relative z-10">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
             Driven by Students, Backed by Data
           </h1>
