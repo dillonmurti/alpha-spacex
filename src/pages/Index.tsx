@@ -13,7 +13,7 @@ const Index = () => {
         <section className="h-screen relative overflow-hidden">
           <video 
             src="/1 Kids to School.mp4"
-            className="absolute inset-0 w-full h-full object-fill"
+            className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             loop
             muted
