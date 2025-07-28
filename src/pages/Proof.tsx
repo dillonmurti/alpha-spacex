@@ -89,6 +89,32 @@ const Proof = () => {
           </div>
         </div>
       </section>
+
+      {/* Fourth Section - Set Up for Future Success */}
+      <section className="min-h-screen flex items-center justify-end px-6" style={{ backgroundColor: '#0000ef' }}>
+        <div className="max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-2xl ml-auto text-right">
+            <h1 
+              className="text-6xl font-bold mb-8" 
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Set Up for Future Success
+            </h1>
+            <p 
+              className="text-xl mb-8 leading-relaxed" 
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Alpha graduates earn acceptances to top-tier universities around the world, from Stanford, NYU, and Kings College London to leading design, business, and tech schools.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
