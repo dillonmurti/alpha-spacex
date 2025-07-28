@@ -33,14 +33,17 @@ const Index = () => {
                 
                 <p 
                   className="text-xl mb-8 leading-relaxed" 
-                  style={{ color: '#ffffff' }}
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
                 >
-                  At Alpha, we believe kids should wake up excited for school, and our revolutionary approach blends cutting edge-AI with proven learning science to make sure they do, all while scoring in the top 1-2% nationally.
+                  At Alpha, we believe in three guiding principles: kids should love school, learn 2X in 2 hours per day, and develop real life skills.
                 </p>
                 
                 <Button 
                   variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200 flex items-center gap-2 ml-auto"
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
                 >
                   Who We Are
                   <ArrowRight className="w-4 h-4" />
@@ -74,14 +77,17 @@ const Index = () => {
                 
                 <p 
                   className="text-xl mb-8 leading-relaxed" 
-                  style={{ color: '#ffffff' }}
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
                 >
                   We believe every kid can learn 2X more in only 2 hours per day, and the results are clear: Alpha students grow 2.5 times faster than their peers on standardized tests.
                 </p>
                 
                 <Button 
                   variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200 flex items-center gap-2"
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
                 >
                   See the Proof
                   <ArrowRight className="w-4 h-4" />
@@ -115,14 +121,17 @@ const Index = () => {
                 
                 <p 
                   className="text-xl mb-8 leading-relaxed" 
-                  style={{ color: '#ffffff' }}
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
                 >
                   Our revolutionary approach blends cutting edge-AI with proven learning science, ensuring all students get the 1:1 attention they need to progress without learning gaps.
                 </p>
                 
                 <Button 
                   variant="outline" 
-                  className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200 flex items-center gap-2 ml-auto"
+                  className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
                 >
                   Explore Our Approach
                   <ArrowRight className="w-4 h-4" />
