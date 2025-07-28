@@ -11,10 +11,13 @@ const Index = () => {
       <main className="flex-1">
         {/* Section 1 */}
         <section className="h-screen relative overflow-hidden">
-          <img 
-            src="/lovable-uploads/d3784277-ce04-4cf8-a93b-e4431f8e0c2f.png"
-            alt="Alpha School Building"
+          <video 
+            src="/Kids to School.mp4"
             className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
           
           {/* Content Overlay */}
