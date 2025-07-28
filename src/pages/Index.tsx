@@ -21,17 +21,32 @@ const Index = () => {
           <div className="absolute inset-0 flex items-center">
             <div className="max-w-7xl mx-auto px-6 w-full">
               <div className="max-w-2xl">
-                <h1 className="text-6xl font-bold mb-8" style={{ color: '#ffffff' }}>
+                <h1 
+                  className="text-6xl font-bold mb-8" 
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 20px rgba(0, 0, 239, 0.6), 0 2px 10px rgba(0, 0, 239, 0.4)'
+                  }}
+                >
                   Welcome to the Future of Education
                 </h1>
                 
-                <p className="text-xl mb-8 leading-relaxed" style={{ color: '#ffffff' }}>
+                <p 
+                  className="text-xl mb-8 leading-relaxed" 
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 2px 15px rgba(0, 0, 239, 0.5), 0 1px 8px rgba(0, 0, 239, 0.3)'
+                  }}
+                >
                   At Alpha, we believe kids should wake up excited for school, and our revolutionary approach blends cutting edge-AI with proven learning science to make sure they do, all while scoring in the top 1-2% nationally.
                 </p>
                 
                 <Button 
                   variant="outline" 
                   className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200 flex items-center gap-2"
+                  style={{
+                    boxShadow: '0 4px 20px rgba(0, 0, 239, 0.4), 0 2px 10px rgba(0, 0, 239, 0.3)'
+                  }}
                 >
                   Who We Are
                   <ArrowRight className="w-4 h-4" />
