@@ -110,8 +110,15 @@ const StudentsInAction = () => {
         </section>
 
         {/* Section 3 - Create Your Masterpiece */}
-        <section className="relative min-h-screen bg-black flex items-center justify-end">
-          <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+        <section 
+          className="relative min-h-screen flex items-center justify-end"
+          style={{ 
+            backgroundImage: 'url(/lovable-uploads/b650f0f8-ee7e-437b-9854-0cb188303070.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl ml-auto text-right">
               <h2 
