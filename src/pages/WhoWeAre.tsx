@@ -11,8 +11,22 @@ const WhoWeAre = () => {
       <section className="relative min-h-screen bg-black flex items-center justify-center">
         <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold mb-8">Alpha's Three Commitments</h1>
-          <p className="text-xl md:text-2xl leading-relaxed">
+          <h1 
+            className="text-6xl font-bold mb-8"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
+            Alpha's Three Commitments
+          </h1>
+          <p 
+            className="text-xl leading-relaxed"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
             Our learning is personalized, purpose-driven, and setting kids up for success in the real world
           </p>
         </div>
@@ -20,10 +34,24 @@ const WhoWeAre = () => {
 
       {/* Section 2: Kids Will Love School */}
       <section className="relative min-h-screen bg-black flex items-center justify-center">
-        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-20"></div>
+        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-bold mb-8">Kids Will Love School</h2>
-          <p className="text-xl md:text-2xl leading-relaxed">
+          <h2 
+            className="text-6xl font-bold mb-8"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
+            Kids Will Love School
+          </h2>
+          <p 
+            className="text-xl leading-relaxed"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
             Students lead their own growth through regular feedback and one-on-one support, while exceptional guides keep them motivated with creative tools and coaching. With unique experiences like Mobile Squad field trips and in-school adventures, we design every day to spark curiosity and make school a place kids truly love.
           </p>
         </div>
@@ -33,8 +61,22 @@ const WhoWeAre = () => {
       <section className="relative min-h-screen bg-black flex items-center justify-center">
         <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-bold mb-8">Kids Will Learn 2X in 2 Hours</h2>
-          <p className="text-xl md:text-2xl leading-relaxed">
+          <h2 
+            className="text-6xl font-bold mb-8"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
+            Kids Will Learn 2X in 2 Hours
+          </h2>
+          <p 
+            className="text-xl leading-relaxed"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
             At Alpha, students master core subjects in just two hours a day using adaptive AI, mastery-based learning, and time-tested focus strategies. This approach leads to 2.6x average academic growth, with top students reaching up to 6.5x—consistently outperforming national benchmarks.
           </p>
         </div>
@@ -42,16 +84,35 @@ const WhoWeAre = () => {
 
       {/* Section 4: Kids Will Learn Life Skills for the Future */}
       <section className="relative min-h-screen bg-black flex items-center justify-center">
-        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-20"></div>
+        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-bold mb-8">Kids Will Learn Life Skills for the Future</h2>
-          <p className="text-xl md:text-2xl leading-relaxed mb-12">
+          <h2 
+            className="text-6xl font-bold mb-8"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
+            Kids Will Learn Life Skills for the Future
+          </h2>
+          <p 
+            className="text-xl mb-8 leading-relaxed"
+            style={{ 
+              color: '#ffffff',
+              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+            }}
+          >
             At Alpha, students build grit, creativity, and adaptability through hands-on workshops focused on 24 essential life skills. From public speaking and coding to entrepreneurship and outdoor challenges, our experiential learning prepares them to lead, communicate, and grow with confidence—long after graduation.
           </p>
-          <Button asChild variant="outline" className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200 text-lg px-8 py-4">
-            <a href="https://alpha.school/the-program/" className="flex items-center gap-2">
+          <Button 
+            asChild 
+            variant="outline" 
+            className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+            style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+          >
+            <a href="https://alpha.school/the-program/">
               Explore the Alpha Program
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 h-4" />
             </a>
           </Button>
         </div>
