@@ -133,7 +133,7 @@ const StudentsInAction = () => {
                 className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[250px]"
                 style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
               >
-                <a href="https://alpha.school/#from-our-students" className="flex items-center gap-2 justify-center">
+                <a href="https://alpha.school/#testimonials" className="flex items-center gap-2 justify-center">
                   See Student Testimonials
                   <ArrowRight className="w-4 h-4" />
                 </a>
