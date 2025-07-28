@@ -6,7 +6,7 @@ const Header = () => {
   const navigationItems = [
     { name: "The Program", hasDropdown: true, url: "https://alpha.school/the-program/" },
     { name: "Admission", hasDropdown: false, url: "https://alpha.school/admission/" },
-    { name: "Locations", hasDropdown: true, url: "https://alpha.school/austin/" },
+    { name: "Locations", hasDropdown: true, url: "https://alpha.school/locations/" },
     { name: "Events", hasDropdown: false, url: "https://alpha.school/programs-events/" },
     { name: "Resources", hasDropdown: true, url: "https://alpha.school/faq/" },
     { name: "Insights", hasDropdown: true, url: "https://alpha.school/blog/" },
