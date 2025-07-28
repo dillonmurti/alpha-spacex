@@ -14,7 +14,7 @@ const OurApproach = () => {
             Children Are Limitless
           </h1>
           <p className="text-xl md:text-2xl leading-relaxed" style={{ color: '#ffffff' }}>
-            Let us show you how Alpha School can take your child farther than they ever dreamed
+            Let us show you how Alpha School can take your children farther than they ever dreamed
           </p>
         </div>
       </section>
