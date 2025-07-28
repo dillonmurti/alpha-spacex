@@ -113,9 +113,9 @@ const StudentsInAction = () => {
         <section 
           className="relative min-h-screen flex items-center justify-end"
           style={{ 
-            backgroundImage: 'url(/lovable-uploads/b650f0f8-ee7e-437b-9854-0cb188303070.png)',
+            backgroundImage: 'url(/lovable-uploads/d955d63d-1180-425d-bf07-ad6d668bfce8.png)',
             backgroundSize: 'cover',
-            backgroundPosition: 'top center',
+            backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
           }}
         >
