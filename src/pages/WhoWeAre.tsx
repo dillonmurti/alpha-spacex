@@ -237,8 +237,8 @@ const WhoWeAre = () => {
           <h1 
             className="text-6xl font-bold mb-12"
             style={{ 
-              color: '#ffffff',
-              textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              color: '#0000ef',
+              textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
             }}
           >
             Have Questions? Contact our Admissions Team
@@ -252,8 +252,8 @@ const WhoWeAre = () => {
                 <h3 
                   className="text-2xl font-bold mb-3"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Alpha School Austin
@@ -261,8 +261,8 @@ const WhoWeAre = () => {
                 <p 
                   className="text-base mb-4 leading-relaxed"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Joanna Lovejoy | admissions@alpha.school
@@ -278,8 +278,8 @@ const WhoWeAre = () => {
                 <h3 
                   className="text-2xl font-bold mb-3"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Alpha School Brownsville
@@ -287,8 +287,8 @@ const WhoWeAre = () => {
                 <p 
                   className="text-base mb-4 leading-relaxed"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Katherine Ledesma | admissions.brownsville@alpha.school
@@ -307,8 +307,8 @@ const WhoWeAre = () => {
                 <h3 
                   className="text-2xl font-bold mb-3"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Alpha School Miami
@@ -316,8 +316,8 @@ const WhoWeAre = () => {
                 <p 
                   className="text-base mb-4 leading-relaxed"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Debby Lichtner | admissions.miami@alpha.school
@@ -333,8 +333,8 @@ const WhoWeAre = () => {
                 <h3 
                   className="text-2xl font-bold mb-3"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Alpha Expansion Schools
@@ -342,8 +342,8 @@ const WhoWeAre = () => {
                 <p 
                   className="text-base mb-4 leading-relaxed"
                   style={{ 
-                    color: '#ffffff',
-                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                    color: '#0000ef',
+                    textShadow: '0 4px 8px rgba(255, 255, 255, 0.5)'
                   }}
                 >
                   Rachel Goodlad | rachel.goodlad@alpha.school
