@@ -10,7 +10,7 @@ const WhoWeAre = () => {
       <Header />
       
       {/* Section 1: Alpha's Three Commitments */}
-      <section className="relative min-h-screen bg-black flex items-center justify-center">
+      <section className="relative min-h-screen bg-black flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/lovable-uploads/92907621-1009-49a9-8a31-c45d66ac09e3.png)' }}>
         <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
           <h1 
