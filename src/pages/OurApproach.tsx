@@ -25,7 +25,7 @@ const OurApproach = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               2 Hour Learning
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#ffffff' }}>
               Alpha's 2 Hour Learning model uses AI-driven, personalized instruction to help students master core subjects quickly and effectively. With targeted lessons and real-time feedback, kids close gaps faster—often outperforming national benchmarks by first grade. Human guides offer support and motivation, ensuring every student gets what they need to thrive.
             </p>
           </div>
