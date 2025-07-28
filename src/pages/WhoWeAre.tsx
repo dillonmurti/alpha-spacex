@@ -232,7 +232,7 @@ const WhoWeAre = () => {
 
       {/* Section 6: Contact Admissions Team */}
       <section className="relative min-h-screen bg-white flex flex-col items-center justify-center py-12">
-        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-7xl mx-auto w-full">
           <h1 
             className="text-6xl font-bold mb-12"
