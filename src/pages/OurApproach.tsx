@@ -79,7 +79,7 @@ const OurApproach = () => {
 
           {/* Right Column - Text Content */}
           <div className="text-right">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0000ef' }}>
               Not Magic, Learning Science
             </h2>
             <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#0000ef' }}>
