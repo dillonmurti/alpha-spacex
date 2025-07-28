@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import { Button } from "@/components/ui/button";
 
 const OurApproach = () => {
   return (
@@ -77,6 +78,43 @@ const OurApproach = () => {
             <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#ffffff' }}>
               For decades, learning science has shown us how the brain best absorbs and retains information—but most schools haven't applied it. At Alpha, we do. Our program is built on time-tested principles that make learning more efficient, engaging, and effective. Learn more from Mackenzie as she breaks down the science behind Alpha's success.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Fourth Section - Redefining the Role of the Teacher */}
+      <section className="relative min-h-screen bg-black flex items-center justify-start">
+        <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+          <div className="max-w-2xl text-left">
+            <h2 
+              className="text-6xl font-bold mb-8"
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              Redefining the Role of the Teacher
+            </h2>
+            <p 
+              className="text-xl mb-8 leading-relaxed"
+              style={{ 
+                color: '#ffffff',
+                textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+              }}
+            >
+              At Alpha School, teachers become 'Guides,' shifting from their traditional roles to mentoring and motivating learners. With AI-powered support, they focus on emotional growth, life skills, and fostering a passion for learning–giving students the time and freedom to thrive.
+            </p>
+            <Button 
+              asChild 
+              variant="outline" 
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[220px]"
+              style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+            >
+              <a href="#" className="flex items-center gap-2 justify-center">
+                See Our Guides
+              </a>
+            </Button>
           </div>
         </div>
       </section>
