@@ -222,109 +222,115 @@ const WhoWeAre = () => {
             Have Questions? Contact our Admissions Team
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {/* Alpha School Austin */}
-            <div className="flex flex-col items-center text-center">
-              <h3 
-                className="text-2xl font-bold mb-3"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Alpha School Austin
-              </h3>
-              <p 
-                className="text-base mb-4 leading-relaxed"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Joanna Lovejoy | admissions@alpha.school
-              </p>
-              <Avatar className="w-24 h-24">
-                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Joanna Lovejoy" />
-                <AvatarFallback>JL</AvatarFallback>
-              </Avatar>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Column 1: Austin + Brownsville */}
+            <div className="flex flex-col space-y-8">
+              {/* Alpha School Austin */}
+              <div className="flex flex-col items-center text-center">
+                <h3 
+                  className="text-2xl font-bold mb-3"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Alpha School Austin
+                </h3>
+                <p 
+                  className="text-base mb-4 leading-relaxed"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Joanna Lovejoy | admissions@alpha.school
+                </p>
+                <Avatar className="w-24 h-24">
+                  <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Joanna Lovejoy" />
+                  <AvatarFallback>JL</AvatarFallback>
+                </Avatar>
+              </div>
+
+              {/* Alpha School Brownsville */}
+              <div className="flex flex-col items-center text-center">
+                <h3 
+                  className="text-2xl font-bold mb-3"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Alpha School Brownsville
+                </h3>
+                <p 
+                  className="text-base mb-4 leading-relaxed"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Katherine Ledesma | admissions.brownsville@alpha.school
+                </p>
+                <Avatar className="w-24 h-24">
+                  <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Katherine Ledesma" />
+                  <AvatarFallback>KL</AvatarFallback>
+                </Avatar>
+              </div>
             </div>
 
-            {/* Alpha School Miami */}
-            <div className="flex flex-col items-center text-center">
-              <h3 
-                className="text-2xl font-bold mb-3"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Alpha School Miami
-              </h3>
-              <p 
-                className="text-base mb-4 leading-relaxed"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Debby Lichtner | admissions.miami@alpha.school
-              </p>
-              <Avatar className="w-24 h-24">
-                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Debby Lichtner" />
-                <AvatarFallback>DL</AvatarFallback>
-              </Avatar>
-            </div>
+            {/* Column 2: Miami + Expansion Schools */}
+            <div className="flex flex-col space-y-8">
+              {/* Alpha School Miami */}
+              <div className="flex flex-col items-center text-center">
+                <h3 
+                  className="text-2xl font-bold mb-3"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Alpha School Miami
+                </h3>
+                <p 
+                  className="text-base mb-4 leading-relaxed"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Debby Lichtner | admissions.miami@alpha.school
+                </p>
+                <Avatar className="w-24 h-24">
+                  <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Debby Lichtner" />
+                  <AvatarFallback>DL</AvatarFallback>
+                </Avatar>
+              </div>
 
-            {/* Alpha School Brownsville */}
-            <div className="flex flex-col items-center text-center">
-              <h3 
-                className="text-2xl font-bold mb-3"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Alpha School Brownsville
-              </h3>
-              <p 
-                className="text-base mb-4 leading-relaxed"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Katherine Ledesma | admissions.brownsville@alpha.school
-              </p>
-              <Avatar className="w-24 h-24">
-                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Katherine Ledesma" />
-                <AvatarFallback>KL</AvatarFallback>
-              </Avatar>
-            </div>
-
-            {/* Alpha Expansion Schools */}
-            <div className="flex flex-col items-center text-center">
-              <h3 
-                className="text-2xl font-bold mb-3"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Alpha Expansion Schools
-              </h3>
-              <p 
-                className="text-base mb-4 leading-relaxed"
-                style={{ 
-                  color: '#ffffff',
-                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
-                }}
-              >
-                Rachel Goodlad | rachel.goodlad@alpha.school
-              </p>
-              <Avatar className="w-24 h-24">
-                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Rachel Goodlad" />
-                <AvatarFallback>RG</AvatarFallback>
-              </Avatar>
+              {/* Alpha Expansion Schools */}
+              <div className="flex flex-col items-center text-center">
+                <h3 
+                  className="text-2xl font-bold mb-3"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Alpha Expansion Schools
+                </h3>
+                <p 
+                  className="text-base mb-4 leading-relaxed"
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
+                >
+                  Rachel Goodlad | rachel.goodlad@alpha.school
+                </p>
+                <Avatar className="w-24 h-24">
+                  <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Rachel Goodlad" />
+                  <AvatarFallback>RG</AvatarFallback>
+                </Avatar>
+              </div>
             </div>
           </div>
         </div>
