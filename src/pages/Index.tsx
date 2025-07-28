@@ -23,7 +23,10 @@ const Index = () => {
               <div className="max-w-2xl ml-auto text-right">
                 <h1 
                   className="text-6xl font-bold mb-8" 
-                  style={{ color: '#ffffff' }}
+                  style={{ 
+                    color: '#ffffff',
+                    textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                  }}
                 >
                   Welcome to the Future of Education
                 </h1>
