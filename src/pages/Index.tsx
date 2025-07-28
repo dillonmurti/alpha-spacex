@@ -59,10 +59,13 @@ const Index = () => {
 
         {/* Section 2 */}
         <section className="h-screen relative overflow-hidden">
-          <img 
-            src="/lovable-uploads/a3b9db08-a472-49c0-a3e2-be8e03ad7593.png"
-            alt="Student Learning"
+          <video 
+            src="/3 Guide with Students.mp4"
             className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
           
           {/* Content Overlay */}
