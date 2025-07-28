@@ -15,8 +15,16 @@ const StudentsInAction = () => {
       {/* Main Content Area */}
       <main className="flex-1">
         {/* Section 1 - Never Confined to a Classroom */}
-        <section className="h-screen relative overflow-hidden bg-black flex items-center justify-center">
-          <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+        <section 
+          className="h-screen relative overflow-hidden flex items-center justify-center"
+          style={{ 
+            backgroundImage: 'url(/lovable-uploads/681b3f15-4735-46e5-a86e-f38bd1b1443b.png)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
+          <div className="absolute inset-0" style={{ backgroundColor: 'rgba(0, 0, 239, 0.6)' }}></div>
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-4xl mx-auto text-center">
               <h1 
