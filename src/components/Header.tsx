@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const navigationItems = [
-    { name: "The Program", hasDropdown: true },
-    { name: "Admission", hasDropdown: false },
-    { name: "Locations", hasDropdown: true },
-    { name: "Events", hasDropdown: false },
-    { name: "Resources", hasDropdown: true },
-    { name: "Insights", hasDropdown: true },
+    { name: "The Program", hasDropdown: true, url: "https://alpha.school/the-program/" },
+    { name: "Admission", hasDropdown: false, url: "https://alpha.school/admission/" },
+    { name: "Locations", hasDropdown: true, url: "https://alpha.school/austin/" },
+    { name: "Events", hasDropdown: false, url: "https://alpha.school/programs-events/" },
+    { name: "Resources", hasDropdown: true, url: "https://alpha.school/faq/" },
+    { name: "Insights", hasDropdown: true, url: "https://alpha.school/blog/" },
   ];
 
   return (
@@ -33,20 +33,20 @@ const Header = () => {
         <nav className="flex items-center space-x-8">
           {navigationItems.map((item) => (
             <div key={item.name} className="relative group">
-              <button className="flex items-center gap-1 text-white hover:text-white transition-colors duration-200 text-sm font-medium">
+              <a href={item.url} className="flex items-center gap-1 text-white hover:text-white transition-colors duration-200 text-sm font-medium">
                 {item.name}
                 {item.hasDropdown && (
                   <ChevronDown className="w-4 h-4 text-white group-hover:text-white transition-colors duration-200" />
                 )}
-              </button>
+              </a>
             </div>
           ))}
         </nav>
 
         {/* Learn More Button */}
         <div className="flex-shrink-0">
-          <Button variant="outline" className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200">
-            Learn More
+          <Button asChild variant="outline" className="rounded-full border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-200">
+            <a href="https://alpha.school/learn-more/">Learn More</a>
           </Button>
         </div>
       </div>
