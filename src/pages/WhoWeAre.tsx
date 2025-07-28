@@ -209,11 +209,11 @@ const WhoWeAre = () => {
       </section>
 
       {/* Section 6: Contact Admissions Team */}
-      <section className="relative min-h-screen bg-black flex flex-col items-center justify-center py-16">
+      <section className="relative min-h-screen bg-black flex flex-col items-center justify-center py-12">
         <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-7xl mx-auto w-full">
           <h1 
-            className="text-6xl font-bold mb-16"
+            className="text-6xl font-bold mb-12"
             style={{ 
               color: '#ffffff',
               textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -222,11 +222,11 @@ const WhoWeAre = () => {
             Have Questions? Contact our Admissions Team
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {/* Alpha School Austin */}
             <div className="flex flex-col items-center text-center">
               <h3 
-                className="text-3xl font-bold mb-4"
+                className="text-2xl font-bold mb-3"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -235,7 +235,7 @@ const WhoWeAre = () => {
                 Alpha School Austin
               </h3>
               <p 
-                className="text-lg mb-6 leading-relaxed"
+                className="text-base mb-4 leading-relaxed"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -243,8 +243,8 @@ const WhoWeAre = () => {
               >
                 Joanna Lovejoy | admissions@alpha.school
               </p>
-              <Avatar className="w-32 h-32">
-                <AvatarImage src="/lovable-uploads/1c50b4f2-73fa-49ad-83f7-2ffc4fa861db.png" alt="Joanna Lovejoy" />
+              <Avatar className="w-24 h-24">
+                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Joanna Lovejoy" />
                 <AvatarFallback>JL</AvatarFallback>
               </Avatar>
             </div>
@@ -252,7 +252,7 @@ const WhoWeAre = () => {
             {/* Alpha School Miami */}
             <div className="flex flex-col items-center text-center">
               <h3 
-                className="text-3xl font-bold mb-4"
+                className="text-2xl font-bold mb-3"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -261,7 +261,7 @@ const WhoWeAre = () => {
                 Alpha School Miami
               </h3>
               <p 
-                className="text-lg mb-6 leading-relaxed"
+                className="text-base mb-4 leading-relaxed"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -269,8 +269,8 @@ const WhoWeAre = () => {
               >
                 Debby Lichtner | admissions.miami@alpha.school
               </p>
-              <Avatar className="w-32 h-32">
-                <AvatarImage src="/lovable-uploads/33c6a67e-59a0-4b24-b828-812135b12661.png" alt="Debby Lichtner" />
+              <Avatar className="w-24 h-24">
+                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Debby Lichtner" />
                 <AvatarFallback>DL</AvatarFallback>
               </Avatar>
             </div>
@@ -278,7 +278,7 @@ const WhoWeAre = () => {
             {/* Alpha School Brownsville */}
             <div className="flex flex-col items-center text-center">
               <h3 
-                className="text-3xl font-bold mb-4"
+                className="text-2xl font-bold mb-3"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -287,16 +287,16 @@ const WhoWeAre = () => {
                 Alpha School Brownsville
               </h3>
               <p 
-                className="text-lg mb-6 leading-relaxed"
+                className="text-sm mb-4 leading-relaxed whitespace-nowrap"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
                 }}
               >
-                Kathrine Ledesma | admissions.brownsville@alpha.school
+                Katherine Ledesma | admissions.brownsville@alpha.school
               </p>
-              <Avatar className="w-32 h-32">
-                <AvatarImage src="/lovable-uploads/37666bfc-8887-4e05-b9c5-99a30f5daa7e.png" alt="Kathrine Ledesma" />
+              <Avatar className="w-24 h-24">
+                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Katherine Ledesma" />
                 <AvatarFallback>KL</AvatarFallback>
               </Avatar>
             </div>
@@ -304,7 +304,7 @@ const WhoWeAre = () => {
             {/* Alpha Expansion Schools */}
             <div className="flex flex-col items-center text-center">
               <h3 
-                className="text-3xl font-bold mb-4"
+                className="text-2xl font-bold mb-3"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -313,7 +313,7 @@ const WhoWeAre = () => {
                 Alpha Expansion Schools
               </h3>
               <p 
-                className="text-lg mb-6 leading-relaxed"
+                className="text-base mb-4 leading-relaxed"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -321,8 +321,8 @@ const WhoWeAre = () => {
               >
                 Rachel Goodlad | rachel.goodlad@alpha.school
               </p>
-              <Avatar className="w-32 h-32">
-                <AvatarImage src="/lovable-uploads/a3b9db08-a472-49c0-a3e2-be8e03ad7593.png" alt="Rachel Goodlad" />
+              <Avatar className="w-24 h-24">
+                <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Rachel Goodlad" />
                 <AvatarFallback>RG</AvatarFallback>
               </Avatar>
             </div>
