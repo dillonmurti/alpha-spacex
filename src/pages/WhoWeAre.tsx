@@ -243,7 +243,7 @@ const WhoWeAre = () => {
                     textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
                   }}
                 >
-                  Joanna Lovejoy | <a href="mailto:admissions@alpha.school" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">admissions@alpha.school</a>
+                  Joanna Lovejoy | admissions@alpha.school
                 </p>
                 <Avatar className="w-24 h-24">
                   <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Joanna Lovejoy" />
@@ -269,7 +269,7 @@ const WhoWeAre = () => {
                     textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
                   }}
                 >
-                  Katherine Ledesma | <a href="mailto:admissions.brownsville@alpha.school" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">admissions.brownsville@alpha.school</a>
+                  Katherine Ledesma | admissions.brownsville@alpha.school
                 </p>
                 <Avatar className="w-24 h-24">
                   <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Katherine Ledesma" />
@@ -298,7 +298,7 @@ const WhoWeAre = () => {
                     textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
                   }}
                 >
-                  Debby Lichtner | <a href="mailto:admissions.miami@alpha.school" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">admissions.miami@alpha.school</a>
+                  Debby Lichtner | admissions.miami@alpha.school
                 </p>
                 <Avatar className="w-24 h-24">
                   <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Debby Lichtner" />
@@ -324,7 +324,7 @@ const WhoWeAre = () => {
                     textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
                   }}
                 >
-                  Rachel Goodlad | <a href="mailto:rachel.goodlad@alpha.school" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">rachel.goodlad@alpha.school</a>
+                  Rachel Goodlad | rachel.goodlad@alpha.school
                 </p>
                 <Avatar className="w-24 h-24">
                   <AvatarImage src="/lovable-uploads/285540c4-02b4-4e9b-ae12-f9b40055132d.png" alt="Rachel Goodlad" />
