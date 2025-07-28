@@ -33,7 +33,15 @@ const Proof = () => {
       </section>
 
       {/* Second Section - Our Students Love to Learn */}
-      <section className="min-h-screen flex items-center justify-end px-6" style={{ backgroundColor: '#0000ef' }}>
+      <section 
+        className="min-h-screen flex items-center justify-end px-6"
+        style={{ 
+          backgroundImage: 'url(/lovable-uploads/74777f45-69a7-49f7-b753-484782206763.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl ml-auto text-right">
             <h1 
