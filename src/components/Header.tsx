@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const navigationItems = [
@@ -19,11 +20,13 @@ const Header = () => {
       <div className="relative flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <img
-            src="/lovable-uploads/33c6a67e-59a0-4b24-b828-812135b12661.png"
-            alt="Alpha Plain White Logo"
-            className="h-10 w-auto"
-          />
+          <Link to="/">
+            <img
+              src="/lovable-uploads/33c6a67e-59a0-4b24-b828-812135b12661.png"
+              alt="Alpha Plain White Logo"
+              className="h-10 w-auto cursor-pointer"
+            />
+          </Link>
         </div>
 
         {/* Navigation */}
