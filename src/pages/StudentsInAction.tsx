@@ -112,6 +112,35 @@ const StudentsInAction = () => {
             </div>
           </div>
         </section>
+
+        {/* Section 4 - Hear it From the Students */}
+        <section className="relative min-h-screen bg-black flex items-center justify-start">
+          <div className="absolute inset-0 bg-[#c2ecfd] bg-opacity-80"></div>
+          <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+            <div className="max-w-2xl text-left">
+              <h2 
+                className="text-6xl font-bold mb-8"
+                style={{ 
+                  color: '#ffffff',
+                  textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
+                }}
+              >
+                Hear it From the Students
+              </h2>
+              <Button 
+                asChild 
+                variant="outline" 
+                className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[250px]"
+                style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
+              >
+                <a href="https://alpha.school/#from-our-students" className="flex items-center gap-2 justify-center">
+                  See Student Testimonials
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+              </Button>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
