@@ -126,8 +126,8 @@ const WhoWeAre = () => {
       </section>
 
       {/* Section 5: Carousel */}
-      <section className="relative min-h-screen bg-black flex items-center justify-center">
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6">
+      <section className="relative min-h-screen bg-black">
+        <div className="relative z-10 w-full">
           <Carousel className="w-full">
             <CarouselContent>
               {/* Slide 1: Attend a Showcase or Schedule a Tour */}
@@ -201,8 +201,8 @@ const WhoWeAre = () => {
                 </div>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className="left-4" />
-            <CarouselNext className="right-4" />
+            <CarouselPrevious className="left-4 bg-[#0000ef] text-[#c2ecfd] border-[#0000ef] hover:bg-[#0000ef]/80 hover:text-[#c2ecfd]" />
+            <CarouselNext className="right-4 bg-[#0000ef] text-[#c2ecfd] border-[#0000ef] hover:bg-[#0000ef]/80 hover:text-[#c2ecfd]" />
           </Carousel>
         </div>
       </section>
