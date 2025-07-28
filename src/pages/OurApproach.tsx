@@ -58,7 +58,7 @@ const OurApproach = () => {
       </section>
 
       {/* Third Section - Not Magic, Learning Science */}
-      <section className="min-h-screen flex items-center px-6 bg-background">
+      <section className="min-h-screen flex items-center px-6" style={{ backgroundColor: '#c2ecfd' }}>
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - YouTube Video */}
           <div>
@@ -82,7 +82,7 @@ const OurApproach = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Not Magic, Learning Science
             </h2>
-            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#ffffff' }}>
+            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#0000ef' }}>
               For decades, learning science has shown us how the brain best absorbs and retains information—but most schools haven't applied it. At Alpha, we do. Our program is built on time-tested principles that make learning more efficient, engaging, and effective. Learn more from Mackenzie as she breaks down the science behind Alpha's success.
             </p>
           </div>
