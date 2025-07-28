@@ -13,7 +13,10 @@ const GetStarted = () => {
       <Header />
       
       {/* Section 1: The Future of Education is Now */}
-      <section className="relative min-h-screen bg-black flex items-center justify-center">
+      <section 
+        className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/lovable-uploads/0271493c-e25b-41ef-8657-b4a32e7bbc8e.png)' }}
+      >
         <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
           <h1 
