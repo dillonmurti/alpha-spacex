@@ -72,8 +72,10 @@ const GetStarted = () => {
       </section>
 
       {/* Section 3: Bring Alpha to Your City */}
-      <section className="relative min-h-screen bg-black flex items-center justify-end">
-        <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
+      <section 
+        className="relative min-h-screen flex items-center justify-end bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/lovable-uploads/8482d6a6-1b6a-4982-b1cb-376ca7cf269b.png)' }}
+      >
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl ml-auto text-right">
             <h2 
