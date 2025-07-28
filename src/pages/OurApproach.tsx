@@ -48,6 +48,38 @@ const OurApproach = () => {
           </div>
         </div>
       </section>
+
+      {/* Third Section - Not Magic, Learning Science */}
+      <section className="min-h-screen flex items-center px-6 bg-background">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left Column - YouTube Video */}
+          <div>
+            <h3 className="text-2xl font-semibold text-foreground mb-4 text-center">
+              Hear It From MacKenzie
+            </h3>
+            <div className="aspect-video">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/dst2hGUYT28?start=534&end=687&autoplay=0"
+                title="Hear It From MacKenzie"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
+          {/* Right Column - Text Content */}
+          <div className="text-right">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Not Magic, Learning Science
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+              For decades, learning science has shown us how the brain best absorbs and retains information—but most schools haven't applied it. At Alpha, we do. Our program is built on time-tested principles that make learning more efficient, engaging, and effective. Learn more from Mackenzie as she breaks down the science behind Alpha's success.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
