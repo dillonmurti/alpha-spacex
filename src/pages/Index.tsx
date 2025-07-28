@@ -128,7 +128,7 @@ const Index = () => {
                     textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
                   }}
                 >
-                  Our revolutionary approach blends cutting edge-AI with proven learning science, ensuring all students get the 1:1 attention they need to progress without learning gaps.
+                  Our revolutionary approach blends cutting edge-AI with proven learning science, ensuring all students get the 1:1 attention they need and motivation they crave to progress without learning gaps.
                 </p>
                 
                 <Button 
