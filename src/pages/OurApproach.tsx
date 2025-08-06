@@ -16,10 +16,10 @@ const OurApproach = () => {
       <section className="relative min-h-screen flex items-center justify-center px-6 bg-cover bg-center" style={{ backgroundImage: 'url(/lovable-uploads/1a8085b6-22e4-4864-9f07-290499c1fc3d.png)' }}>
         <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
         <div className="relative z-10 text-center max-w-4xl">
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
+          <h1 className="text-5xl md:text-7xl text-3xl font-bold text-foreground mb-8">
             Children Are Limitless
           </h1>
-          <p className="text-xl md:text-2xl leading-relaxed" style={{ color: '#ffffff' }}>
+          <p className="text-xl md:text-2xl text-sm leading-relaxed" style={{ color: '#ffffff' }}>
             Let us show you how Alpha School can take your children farther than they ever dreamed
           </p>
         </div>
@@ -30,10 +30,10 @@ const OurApproach = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="text-4xl md:text-5xl text-2xl font-bold text-foreground mb-6">
               2 Hour Learning
             </h2>
-            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#ffffff' }}>
+            <p className="text-lg md:text-xl text-sm leading-relaxed" style={{ color: '#ffffff' }}>
               Alpha's 2 Hour Learning model uses AI-driven, personalized instruction to help students master core subjects quickly and effectively. With targeted lessons and real-time feedback, kids close gaps faster—often outperforming national benchmarks by first grade. Human guides offer support and motivation, ensuring every student gets what they need to thrive.
             </p>
           </div>
@@ -79,10 +79,10 @@ const OurApproach = () => {
 
           {/* Right Column - Text Content */}
           <div className="text-right">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0000ef' }}>
+            <h2 className="text-4xl md:text-5xl text-2xl font-bold mb-6" style={{ color: '#0000ef' }}>
               Not Magic, Learning Science
             </h2>
-            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#0000ef' }}>
+            <p className="text-lg md:text-xl text-sm leading-relaxed" style={{ color: '#0000ef' }}>
               For decades, learning science has shown us how the brain best absorbs and retains information—but most schools haven't applied it. At Alpha, we do. Our program is built on time-tested principles that make learning more efficient, engaging, and effective. Learn more from Mackenzie as she breaks down the science behind Alpha's success.
             </p>
           </div>
@@ -94,7 +94,7 @@ const OurApproach = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl text-left">
             <h2 
-              className="text-6xl font-bold mb-8"
+              className="text-6xl md:text-6xl text-3xl font-bold mb-8"
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -103,7 +103,7 @@ const OurApproach = () => {
               Redefining the Role of the Teacher
             </h2>
             <p 
-              className="text-xl mb-8 leading-relaxed"
+              className="text-xl md:text-xl text-sm mb-8 leading-relaxed"
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'

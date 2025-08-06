@@ -28,7 +28,7 @@ const StudentsInAction = () => {
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-4xl mx-auto text-center">
               <h1 
-                className="text-6xl font-bold mb-8" 
+                className="text-6xl md:text-6xl text-3xl font-bold mb-8" 
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -38,7 +38,7 @@ const StudentsInAction = () => {
               </h1>
               
               <p 
-                className="text-xl leading-relaxed" 
+                className="text-xl md:text-xl text-sm leading-relaxed" 
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -63,7 +63,7 @@ const StudentsInAction = () => {
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl text-left">
               <h2 
-                className="text-6xl font-bold mb-8"
+                className="text-6xl md:text-6xl text-3xl font-bold mb-8"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -72,7 +72,7 @@ const StudentsInAction = () => {
                 Real Skills for the Real World
               </h2>
               <p 
-                className="text-xl mb-8 leading-relaxed"
+                className="text-xl md:text-xl text-sm mb-8 leading-relaxed"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -122,7 +122,7 @@ const StudentsInAction = () => {
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl ml-auto text-right">
               <h2 
-                className="text-6xl font-bold mb-8"
+                className="text-6xl md:text-6xl text-3xl font-bold mb-8"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -131,7 +131,7 @@ const StudentsInAction = () => {
                 Create Your Masterpiece
               </h2>
               <p 
-                className="text-xl mb-8 leading-relaxed"
+                className="text-xl md:text-xl text-sm mb-8 leading-relaxed"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -167,7 +167,7 @@ const StudentsInAction = () => {
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl text-left">
               <h2 
-                className="text-6xl font-bold mb-8"
+                className="text-6xl md:text-6xl text-3xl font-bold mb-8"
                 style={{ 
                   color: '#ffffff',
                   textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'

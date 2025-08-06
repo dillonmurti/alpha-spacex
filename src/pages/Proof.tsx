@@ -23,10 +23,10 @@ const Proof = () => {
           style={{ backgroundColor: 'rgba(0, 0, 239, 0.6)' }}
         ></div>
         <div className="text-center max-w-4xl relative z-10">
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-8">
+          <h1 className="text-5xl md:text-7xl text-3xl font-bold text-foreground mb-8">
             Driven by Students, Backed by Data
           </h1>
-          <p className="text-xl md:text-2xl leading-relaxed" style={{ color: '#ffffff' }}>
+          <p className="text-xl md:text-2xl text-sm leading-relaxed" style={{ color: '#ffffff' }}>
             At Alpha, success isn't just measured by test scores, it is reflected in how our students feel and grow every day
           </p>
         </div>
@@ -45,7 +45,7 @@ const Proof = () => {
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl ml-auto text-right">
             <h1 
-              className="text-6xl font-bold mb-8" 
+              className="text-6xl md:text-6xl text-3xl font-bold mb-8" 
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -54,7 +54,7 @@ const Proof = () => {
               Our Students Love to Learn
             </h1>
             <p 
-              className="text-xl mb-8 leading-relaxed" 
+              className="text-xl md:text-xl text-sm mb-8 leading-relaxed" 
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -71,10 +71,10 @@ const Proof = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0000ef' }}>
+            <h2 className="text-4xl md:text-5xl text-2xl font-bold mb-6" style={{ color: '#0000ef' }}>
               The Results Speak for Themselves
             </h2>
-            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#0000ef' }}>
+            <p className="text-lg md:text-xl text-sm leading-relaxed" style={{ color: '#0000ef' }}>
               Alpha students learn an average of 2.2x faster than their peers, as shown by industry-standard MAP testing (view report). SAT scores for the Class of 2025 hit a median of 1530, while even our freshman class (Class of 2028) posted a median score of 1410, well above national benchmarks. On AP exams, over 80% of students scored a 4 or 5.
             </p>
           </div>
@@ -137,7 +137,7 @@ const Proof = () => {
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl ml-auto text-right">
             <h1 
-              className="text-6xl font-bold mb-8" 
+              className="text-6xl md:text-6xl text-3xl font-bold mb-8" 
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -146,7 +146,7 @@ const Proof = () => {
               Set Up for Future Success
             </h1>
             <p 
-              className="text-xl mb-8 leading-relaxed" 
+              className="text-xl md:text-xl text-sm mb-8 leading-relaxed" 
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -171,7 +171,7 @@ const Proof = () => {
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl text-left">
             <h1 
-              className="text-6xl font-bold mb-8" 
+              className="text-6xl md:text-6xl text-3xl font-bold mb-8" 
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
