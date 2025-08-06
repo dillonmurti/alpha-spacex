@@ -14,7 +14,7 @@ const WhoWeAre = () => {
         <div className="absolute inset-0 bg-[#0000ef] bg-opacity-50"></div>
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
           <h1 
-            className="text-6xl md:text-6xl text-2xl font-bold mb-8"
+            className="text-6xl md:text-6xl text-xl font-bold mb-8"
             style={{ 
               color: '#ffffff',
               textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -40,7 +40,7 @@ const WhoWeAre = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl text-left">
             <h2 
-              className="text-6xl md:text-6xl text-2xl font-bold mb-8"
+              className="text-6xl md:text-6xl text-xl font-bold mb-8"
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -67,7 +67,7 @@ const WhoWeAre = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl ml-auto text-right">
             <h2 
-              className="text-6xl md:text-6xl text-2xl font-bold mb-8"
+              className="text-6xl md:text-6xl text-xl font-bold mb-8"
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -94,7 +94,7 @@ const WhoWeAre = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="max-w-2xl text-left">
             <h2 
-              className="text-6xl md:text-6xl text-2xl font-bold mb-8"
+              className="text-6xl md:text-6xl text-xl font-bold mb-8"
               style={{ 
                 color: '#ffffff',
                 textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -114,7 +114,7 @@ const WhoWeAre = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[220px] md:w-[220px] w-[140px] h-[35px] md:h-auto text-xs md:text-sm"
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[220px] md:w-[220px] w-[180px] h-[40px] md:h-auto text-xs md:text-sm"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
               <a href="https://alpha.school/the-program/" className="flex items-center gap-2 justify-center">
@@ -138,7 +138,7 @@ const WhoWeAre = () => {
                   <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
                     <div className="max-w-2xl text-left">
                       <h2 
-                        className="text-6xl md:text-6xl text-2xl font-bold mb-8"
+                        className="text-6xl md:text-6xl text-xl font-bold mb-8"
                         style={{ 
                           color: '#ffffff',
                           textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -149,7 +149,7 @@ const WhoWeAre = () => {
                       <Button 
                         asChild 
                         variant="outline" 
-                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[100px] h-[35px] md:h-auto text-xs md:text-sm"
+                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[120px] h-[40px] md:h-auto text-xs md:text-sm"
                         style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                       >
                         <a href="https://alpha.school/admission/" className="flex items-center gap-2 justify-center">
@@ -169,7 +169,7 @@ const WhoWeAre = () => {
                   <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
                     <div className="max-w-2xl ml-auto text-right">
                       <h2 
-                        className="text-6xl md:text-6xl text-2xl font-bold mb-8"
+                        className="text-6xl md:text-6xl text-xl font-bold mb-8"
                         style={{ 
                           color: '#ffffff',
                           textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -180,7 +180,7 @@ const WhoWeAre = () => {
                       <Button 
                         asChild 
                         variant="outline" 
-                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[100px] h-[35px] md:h-auto text-xs md:text-sm ml-auto"
+                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[120px] h-[40px] md:h-auto text-xs md:text-sm ml-auto"
                         style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                       >
                         <a href="https://alpha.school/admission/" className="flex items-center gap-2 justify-center">
@@ -200,7 +200,7 @@ const WhoWeAre = () => {
                   <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
                     <div className="max-w-2xl text-left">
                       <h2 
-                        className="text-6xl md:text-6xl text-2xl font-bold mb-8"
+                        className="text-6xl md:text-6xl text-xl font-bold mb-8"
                         style={{ 
                           color: '#ffffff',
                           textShadow: '0 4px 8px rgba(0, 0, 239, 0.5)'
@@ -211,7 +211,7 @@ const WhoWeAre = () => {
                       <Button 
                         asChild 
                         variant="outline" 
-                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[100px] h-[35px] md:h-auto text-xs md:text-sm"
+                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[120px] h-[40px] md:h-auto text-xs md:text-sm"
                         style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                       >
                         <a href="https://alpha.school/admission/" className="flex items-center gap-2 justify-center">
