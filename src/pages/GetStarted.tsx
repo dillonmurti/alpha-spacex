@@ -59,7 +59,7 @@ const GetStarted = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[40px] md:h-auto text-sm md:text-sm"
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
               <a href="https://alpha.school/admission-forms/" className="flex items-center gap-2 justify-center">
@@ -90,7 +90,7 @@ const GetStarted = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[40px] md:h-auto text-sm md:text-sm ml-auto"
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm ml-auto"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
               <a href="https://alpha.school/bring-alpha-to-your-city/" className="flex items-center gap-2 justify-center">
@@ -121,7 +121,7 @@ const GetStarted = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[180px] md:w-[180px] w-[150px] h-[40px] md:h-auto text-sm md:text-sm"
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[180px] md:w-[180px] w-[160px] h-[45px] text-sm md:text-sm"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
               <a href="https://www.crossover.com/jobs" className="flex items-center gap-2 justify-center">
@@ -152,7 +152,7 @@ const GetStarted = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[160px] md:w-[160px] w-[140px] h-[40px] md:h-auto text-sm md:text-sm ml-auto"
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[160px] md:w-[160px] w-[150px] h-[45px] text-sm md:text-sm ml-auto"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
               <a href="https://alpha.school/learn-more/" className="flex items-center gap-2 justify-center">

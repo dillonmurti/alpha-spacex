@@ -48,7 +48,7 @@ const Index = () => {
                 <Link to="/who-we-are">
                   <Button 
                     variant="outline" 
-                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm"
                     style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                   >
                     Who We Are
@@ -98,7 +98,7 @@ const Index = () => {
                 <Link to="/our-approach">
                   <Button 
                     variant="outline" 
-                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto w-[200px] md:w-[200px] w-[180px] h-[45px] text-sm md:text-sm"
                     style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                   >
                     Explore Our Approach
@@ -148,7 +148,7 @@ const Index = () => {
                 <Link to="/proof" onClick={() => window.scrollTo(0, 0)}>
                   <Button 
                     variant="outline" 
-                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm"
                     style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                   >
                     See the Proof
@@ -198,7 +198,7 @@ const Index = () => {
                 <Link to="/students-in-action">
                   <Button 
                     variant="outline" 
-                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto"
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 ml-auto w-[220px] md:w-[220px] w-[200px] h-[45px] text-sm md:text-sm"
                     style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                   >
                     See Students in Action
@@ -248,7 +248,7 @@ const Index = () => {
                 <Link to="/get-started">
                   <Button 
                     variant="outline" 
-                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                    className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[200px] md:w-[200px] w-[180px] h-[45px] text-sm md:text-sm"
                     style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                   >
                     Get Started With Us

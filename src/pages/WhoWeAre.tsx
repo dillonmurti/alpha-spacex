@@ -114,7 +114,7 @@ const WhoWeAre = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[220px] md:w-[220px] w-[180px] h-[40px] md:h-auto text-sm md:text-sm"
+              className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[220px] md:w-[220px] w-[200px] h-[45px] text-sm md:text-sm"
               style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
             >
               <a href="https://alpha.school/the-program/" className="flex items-center gap-2 justify-center">
@@ -149,7 +149,7 @@ const WhoWeAre = () => {
                       <Button 
                         asChild 
                         variant="outline" 
-                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[120px] h-[40px] md:h-auto text-sm md:text-sm"
+                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm"
                         style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                       >
                         <a href="https://alpha.school/admission/" className="flex items-center gap-2 justify-center">
@@ -180,7 +180,7 @@ const WhoWeAre = () => {
                       <Button 
                         asChild 
                         variant="outline" 
-                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[120px] h-[40px] md:h-auto text-sm md:text-sm ml-auto"
+                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm ml-auto"
                         style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                       >
                         <a href="https://alpha.school/admission/" className="flex items-center gap-2 justify-center">
@@ -211,7 +211,7 @@ const WhoWeAre = () => {
                       <Button 
                         asChild 
                         variant="outline" 
-                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[120px] h-[40px] md:h-auto text-sm md:text-sm"
+                        className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm"
                         style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
                       >
                         <a href="https://alpha.school/admission/" className="flex items-center gap-2 justify-center">

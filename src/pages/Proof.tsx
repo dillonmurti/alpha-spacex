@@ -99,7 +99,7 @@ const Proof = () => {
               >
                 <Button 
                   variant="outline" 
-                  className="rounded-full bg-transparent transition-all duration-200 flex items-center gap-2"
+                  className="rounded-full bg-transparent transition-all duration-200 flex items-center gap-2 w-[220px] md:w-[220px] w-[200px] h-[45px] text-sm md:text-sm"
                   style={{ 
                     borderColor: '#0000ef',
                     color: '#0000ef'
@@ -187,7 +187,7 @@ const Proof = () => {
             >
               <Button 
                 variant="outline" 
-                className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2"
+                className="rounded-full border-white text-white bg-transparent hover:bg-[#c2ecfd] hover:text-[#0000ef] hover:border-[#0000ef] transition-all duration-200 flex items-center gap-2 w-[150px] md:w-[150px] w-[130px] h-[45px] text-sm md:text-sm"
                 style={{ boxShadow: '0 4px 8px rgba(0, 0, 239, 0.5)' }}
               >
                 View Our FAQs
